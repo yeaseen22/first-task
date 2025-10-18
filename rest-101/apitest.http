@@ -1,0 +1,47 @@
+GET http://localhost:4000/health
+
+###
+
+POST http://localhost:4000
+Content-Type: application/json
+
+{
+    "name": "M",
+    "country": "bd",
+    "rand":1
+}
+
+###
+
+GET http://localhost:4000
+
+###
+GET http://localhost:4000/h3BFCms5Q
+
+###
+PATCH http://localhost:4000/h3BFCms5Q
+Content-Type: application/json
+
+
+{
+    "name": "Mashrafi" 
+}
+
+###
+PUT http://localhost:4000/h3BFCms5Q
+
+{
+    "name": "mashrafi bin",
+    "country": "BD",
+    "rand": 20
+}
+
+###
+PUT http://localhost:4000/h3BFCms51
+
+{
+    "name": "Sakib",
+    "country": "BD",
+    "rand": 1
+}
+
